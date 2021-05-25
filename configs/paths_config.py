@@ -21,7 +21,7 @@ dataset_paths = {
 model_paths = {
   'streetview': '/content/model.pt',
 	'ir_se50': 'pretrained_models/model_ir_se50.pth',
-	'resnet34': '/content/model.pt',
+	'resnet34': 'pretrained_models/resnet34-333f7ec4.pth',
 	'stylegan_ffhq': 'pretrained_models/stylegan2-ffhq-config-f.pt',
 	'stylegan_cars': 'pretrained_models/stylegan2-car-config-f.pt',
 	'stylegan_church': 'pretrained_models/stylegan2-church-config-f.pt',
