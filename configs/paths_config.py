@@ -12,12 +12,16 @@ dataset_paths = {
 	'horse_test': '',
 
 	'afhq_wild_train': '',
-	'afhq_wild_test': ''
+	'afhq_wild_test': '',
+
+  'streetview_train': '/content/final_images_512',
+  'streetview_test': '/content/final_images_512_test'
 }
 
 model_paths = {
+  'streetview': '/content/model.pt',
 	'ir_se50': 'pretrained_models/model_ir_se50.pth',
-	'resnet34': 'pretrained_models/resnet34-333f7ec4.pth',
+	'resnet34': '/content/model.pt',
 	'stylegan_ffhq': 'pretrained_models/stylegan2-ffhq-config-f.pt',
 	'stylegan_cars': 'pretrained_models/stylegan2-car-config-f.pt',
 	'stylegan_church': 'pretrained_models/stylegan2-church-config-f.pt',
