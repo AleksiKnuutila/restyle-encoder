@@ -5,8 +5,8 @@ from configs.paths_config import dataset_paths
 DATASETS = {
   'streetview': {
 		'transforms': transforms_config.EncodeTransforms,
-		'train_source_root': dataset_paths['streetview'],
-		'train_target_root': dataset_paths['streetview'],
+		'train_source_root': dataset_paths['streetview_train'],
+		'train_target_root': dataset_paths['streetview_train'],
 		'test_source_root': dataset_paths['streetview_test'],
 		'test_target_root': dataset_paths['streetview_test']
 	},
